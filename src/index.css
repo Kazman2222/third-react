@@ -1,0 +1,268 @@
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.input-1 {
+  margin: 3% 1%;
+  width: 32rem;
+  height: 3rem;
+}
+.error {
+  color: red;
+}
+.button-1 {
+  width: 33rem;
+  height: 3rem;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.input-2 {
+  width: 20rem;
+  height: 3rem;
+  
+  border-radius: 3px 3px 3px 3px;
+  background-color: dodgerblue;
+  color: rebeccapurple;
+  font-size: 1.5rem;
+  font-family: monospace;
+  border: 1px solid dodgerblue;
+}
+.input-3 {
+  position: absolute;
+  top: 0.5rem;
+  left: 10.9rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3px 3px 3px 3px;
+  background-color: dodgerblue;
+  color: rebeccapurple;
+  font-size: 1.5rem;
+  font-family: monospace;
+  border: 1px solid dodgerblue;
+}
+.input-4 {
+  height: 3rem;
+  border-radius: 3px 3px 3px 3px;
+  background-color: dodgerblue;
+  color: rebeccapurple;
+  font-size: 1.5rem;
+  font-family: monospace;
+  width: 10rem;
+  position: absolute;
+  left: 14.1rem;
+  border: 1px solid dodgerblue;
+  
+}
+.button-section {
+  display: flex;
+  flex-direction: column;
+  
+  
+  gap: 15px;
+  background-color: darkgrey;
+  width: 23.5rem;
+  height: 25rem;
+      }
+      .button-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        
+    }
+  
+ .reset-button {
+    height: 2.5rem;
+    width: 7.4rem;
+    border-radius: 15px 15px 15px 15px;
+    background-color: lightblue;
+    border: none; 
+}
+.result-button {
+  height: 2.5rem;
+  width: 7.8rem;
+  border-radius: 15px 15px 15px 15px;
+  background-color: orange;
+  border: none;
+}
+.result {
+  margin-left: 18rem;
+  font-weight: bolder;
+
+}
+.yo {
+  background-color: blue;
+  color: red;
+}
+.div-1 {
+  display: flex;
+  flex-direction: column;
+}
+.buttob-15 {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 6px 6px 6px 6px;
+  background-color: black;
+  color: white;
+} 
+.buttob-16 {
+  width: 35rem;
+  height: 3rem;
+  border-radius: 6px 6px 6px 6px;
+  background-color: black;
+  color: white;
+} 
+.link-1 {
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (max-width: 480px)  {
+.shop-div-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E9897E;
+  color: white;
+  width: 100%;
+  height: 4em;
+  
+}
+.bars {
+  margin: 4% 5%;
+  font-size: 1.5em;
+  
+}
+.cart {
+  margin: 3.5% 5%;
+  font-size: 1.5em;
+  color: white;
+}
+.tobi-store {
+  font-size: 1.3em;
+  margin-top: 3%;
+}
+.shop-div-2 {
+  background-image: url(vegee.jpg);
+  width: 100%;
+  height: 20rem;
+}
+.shop-div-3 {
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+.shop-div-8 {
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+  margin-top: 90%;
+}
+.img-cart {
+  width: 95.9%;
+  margin: 1% 2%;
+}
+.img-carts {
+  width: 95.9%;
+  margin: 1% 2%;
+}
+.shop-h {
+  text-align: center;
+}
+.buttons-1 {
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 12.5%;
+  margin-top: 2.1;
+  font-size: 1.2em;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+}
+.button-veg {
+  width: 9rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  margin: 2.1% 5%;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+}
+.shop-span {
+  text-align: center;
+  font-size: 2.5em;
+}
+.cart-h-2 {
+  text-align: center;
+}
+.shop-div-5 {
+  display: none;
+  text-align: center;
+}
+.cart-many {
+  position: absolute;
+  right: 2.1rem;
+  top: 7px;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
+.solution-buttons {
+  margin: 0% 2%;
+  background-color: #EDF1FF;
+  color: black;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+  font-size: 1.2em;
+  width: 15rem;
+  height: 3rem;
+}
+.solution-buttonss {
+  margin: 0% 2%;
+  width: 2rem;
+  height: 2rem;
+  background-color: #0072B5;
+  color: white;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+  font-size: 1.1em;
+}
+.solution-button {
+  margin: 0% 2%;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+  background-color: #0072B5;
+  color: white;
+  font-size: 1.1em;
+}
+.Tomato {
+display: flex;
+flex-direction: row;
+gap: 3.3rem;
+}
+.fresh {
+  font-size: 2em;
+}
+.fresh-p {
+  font-size: 1.5em;
+}
+}
