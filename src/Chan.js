@@ -43,7 +43,7 @@ const Chan = (props, event) => {
     <span className='shop-span'>sauce</span>
     <br></br>
     <button    className="buttons-1" onClick={props.handleMes} ><FontAwesomeIcon icon={faShoppingCart}  ></FontAwesomeIcon></button>
-    <button className="button-veg">view in store</button>
+    <button className="button-veg">view in stores</button>
 </div>
      </div>
      );
